@@ -1,19 +1,38 @@
-# GitHubTIPS
+# GitHub TIPS
 GitHubを便利に使うTIPS
 
 ---
 
 ### 自己紹介
 
-★TODO: サクッと自己紹介
+白井 誠  
+(shirai makoto)
+
+普段はiPhoneアプリを作成しています。
+
+- GitHub: @shirai
+- Qiita: @sirai
+- Twitter: @shirai_makoto
 
 ---
 
 ### 背景説明
 
-- なんでこんなことしようとしたのか？前提踏まえて書く
+- なんでこんなことしようとしたのか？ | 
 
-★Confluenceに書いた記事からパクる
+- iPhoneアプリエンジニアの育成カリキュラムも作成してます | 
+
+- アウトプットの場は基本的にConfluence(社内限定公開)
+- 成果物自体はpublicな情報で一般にも公開している(GitHub public repo) |
+
+ConfluenceにもGitHubにも書かないといけない、というのが  
+<font color="red">非常にめんどくさい</font>
+
+---
+
+### やりたいこと
+
+全ての情報をGitHubで一元管理
 
 ---
 
@@ -43,8 +62,6 @@ GitHubを便利に使うTIPS
 htmlマクロを使って生成したjsスクリプトを貼り付ける
 
 ★TODO: image貼る
-
-- ★TODO: 所感書く
 
 ---
 
