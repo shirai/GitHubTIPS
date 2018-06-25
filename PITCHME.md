@@ -63,12 +63,10 @@ htmlマクロを使って生成したjsスクリプトを貼り付ける
 
 ### 【裏技2】 issueを使って画像を楽々アップロード
 
-通常画像をアップロードする場合、Gist or 任意のrepositoryをcloneして画像のアップロードが必要。。。めんどい
+- Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop
+  - サクッと画像がアップロードできる！
 
-- Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop  
-  → サクッと画像がアップロードできる！
-- 自動生成されるmarkdownタグだと画像サイズが大きい。。とかなりがち  
-  → 所詮は画像URLなので、imgタグ使って埋め込んじゃえばサクッと任意のサイズにもできる
+※所詮は画像URLなので、imgタグ使って埋め込んじゃえばサクッと任意のサイズにもできる
 
 ---
 
@@ -79,10 +77,10 @@ htmlマクロを使って生成したjsスクリプトを貼り付ける
 3. https://gitpitch.com/{ユーザー名}/{リポジトリ名} にアクセス
 
 これだけでスライドが作れちゃう！使うのはブラウザとGitHubアカウントのみ！  
-あとはよしなに PITCHME.md を編集すればOK
+あとはよしなに [PITCHME.md](https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md) を編集すればOK
 
-今回のスライドもこれで作ってます
-https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md
+今回のスライドもこれで作ってます  
+https://gitpitch.com/shirai/GitHubTIPS
 
 ---
 
