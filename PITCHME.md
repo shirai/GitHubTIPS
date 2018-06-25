@@ -72,4 +72,31 @@ htmlマクロを使って生成したjsスクリプトを貼り付ける
 
 ---
 
+### 【裏技3】 スライドを作成
+
+1. repository作成
+2. README.md を PITCHME.mdにリネーム
+3. https://gitpitch.com/{ユーザー名}/{リポジトリ名} にアクセス
+
+これだけでスライドが作れちゃう！使うのはブラウザとGitHubアカウントのみ！  
+あとはよしなに PITCHME.md を編集すればOK
+
+今回のスライドもこれで作ってます
+https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md
+
+---
+
 ### おわり
+
+アウトプットを楽に続けていくためにも、便利なものをより便利に使いたい
+
+まだまだ便利な使い方模索しています！
+
+
+---
+
+おまけ: 参考サイト
+
+- [【gist-it】githubのソースコードをサイトに埋め込む方法 - プログラミング雑記](https://algorithm.joho.info/programming/gist-it-github-soucecode-website/)
+- [GitHub の Wiki に画像を貼り付ける一番簡単な方法（Wiki リポジトリを clone しないバージョン） - akiyoko blog](http://akiyoko.hatenablog.jp/entry/2016/08/30/051708)
+- [GitHubだけで超高機能なスライド資料が作れる「GitPitch」の使い方を徹底解説！ - paiza開発日誌](https://paiza.hatenablog.com/entry/2017/06/22/GitHubだけで超高機能なスライド資料が作れる「GitPitch」の)
