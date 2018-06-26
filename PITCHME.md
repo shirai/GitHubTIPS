@@ -94,7 +94,7 @@ htmlマクロ機能を使って
 ![gist_to_confluence_2](https://user-images.githubusercontent.com/16277668/41912332-5fe91c48-798a-11e8-82dd-0181310ab774.png)
 
 - wiki,ソースコードはGistにのみ存在
-- Gist,Confluence両方から参照できる
+- Gist,Confluence両方から参照できる  
 
 <font color="blue">使い勝手を変えずに、情報の集約に成功</font>
 
@@ -109,15 +109,15 @@ htmlマクロ機能を使って
 [gist-it](http://gist-it.appspot.com/)を利用
 
 - repository上のソースコードを埋め込み表示することができる  
-  Gistへのコピペ不要！
+  → Gistへのコピペ不要！
 - 外部ライブラリの調査結果とか書くときにも便利
 
 ---
 
 ### 【小技2】 issueを使って画像を楽々アップロード
 
-- Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop
-  - サクッと画像がアップロードできる！
+- Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop  
+  → サクッと画像がアップロードできる！
 - Issue自体はSubmit不要
 
 ---
@@ -127,12 +127,12 @@ htmlマクロ機能を使って
 1. repository作成
 1. README.md を PITCHME.md にrename
 1. PITCHME.md を編集
-1. https://gitpitch.com/$userName/$repoName にアクセス  
+1. https://gitpitch.com/$userName/$repoName  
 
 ブラウザだけで簡単にスライドが作れちゃう！ 
 
 今回のスライドもこれで作ってます  
-[URL](https://gitpitch.com/shirai/GitHubTIPS) [ソース](https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md)
+[URL](https://gitpitch.com/shirai/GitHubTIPS)　　　[ソース](https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md)
 
 ---
 
