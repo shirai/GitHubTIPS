@@ -18,14 +18,14 @@ GitHubを便利に使うTIPS
 
 ### 本日のお話
 
-「GitHubを学習用ノートとして使う」  
+<font color="red">「GitHubを学習用ノートとして使う」</font>  
 という話をする予定でしたが、
 
 - 背景説明をするのに時間がかかる
 - さほど面白い背景でもない
 
 ということでそのへんの説明を省き、  
-「GitHubを便利に利用した話」
+<font color="blue">「GitHubを便利に利用した話」</font>  
 を中心にお話します。
 
 ---
@@ -33,7 +33,10 @@ GitHubを便利に使うTIPS
 ### 目次
 
 1. GitHub(Gist)とConfluenceを連携  
-2. 小技集（1～3)
+2. 小技集
+  1. 既存ソースを埋め込みHTML化
+  2. 画像を簡単にupload
+  3. 発表用スライド作成
 
 ---
 
@@ -41,7 +44,9 @@ GitHubを便利に使うTIPS
 
 ---
 
-### GitHub(Gist)とConfluenceを連携_目的
+GitHub(Gist)とConfluenceを連携
+
+### 目的
 
 - 育成コンテンツ用のサンプルコードはGitHub
 - 育成コンテンツの説明＆展開方法はConfluence
@@ -50,7 +55,9 @@ GitHubを便利に使うTIPS
 
 ---
 
-### GitHub(Gist)とConfluenceを連携_手順
+GitHub(Gist)とConfluenceを連携
+
+### 手順
 
 1. Gistにwiki情報を書く
 2. gist-embedで埋め込みHTMLを加工する
@@ -67,38 +74,43 @@ GitHubを便利に使うTIPS
 
 ### Step2. [gist-embed](http://blairvanderhoof.com/gist-embed/)で埋め込みHTMLを加工する
 
-- Gistが生成する埋め込みHTMLだと見た目を自由に変えられない
+- Gistが生成する埋め込み用jsを加工できる
 - 行数指定やfooterを消したりできるようになる  
-  見た目そんなに気にしないならスキップしても良いです
+  ※見た目気にしないならSKIPしても良いです
 
 ---
 
 ### Step3. Confluenceに埋め込む
 
-htmlマクロを使って生成したjsスクリプトを貼り付ける
+htmlマクロ機能を使って  
+生成したjsを貼り付ける
 
 ![gist_to_confluence](https://user-images.githubusercontent.com/16277668/41912333-600e93b0-798a-11e8-90d2-853a8b9a42a8.png)
 
 ---
+
 ### 完成
 
 ![gist_to_confluence_2](https://user-images.githubusercontent.com/16277668/41912332-5fe91c48-798a-11e8-82dd-0181310ab774.png)
 
-- wiki,ソースコードはGistに存在
+- wiki,ソースコードはGistにのみ存在
 - Gist,Confluence両方から参照できる
 
----
-
-## 小技
+<font color="blue">使い勝手を変えずに、情報の集約に成功</font>
 
 ---
 
-### 【小技1】 gist-it 既存のGitHubソースコードを埋め込み表示
+## 小技集
 
-[gist-it](http://gist-it.appspot.com/)
+---
 
-- repository上のソースコードを埋め込み表示することができる
-- 外部ライブラリの調査結果とか書くときに便利
+### 【小技1】既存のソースコードからjs自動生成
+
+[gist-it](http://gist-it.appspot.com/)を利用
+
+- repository上のソースコードを埋め込み表示することができる  
+  Gistへのコピペ不要！
+- 外部ライブラリの調査結果とか書くときにも便利
 
 ---
 
@@ -106,22 +118,21 @@ htmlマクロを使って生成したjsスクリプトを貼り付ける
 
 - Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop
   - サクッと画像がアップロードできる！
-
-※所詮は画像URLなので、imgタグ使って埋め込んじゃえばサクッと任意のサイズにもできる
+- Issue自体はSubmit不要
 
 ---
 
 ### 【小技3】 スライドを作成
 
 1. repository作成
-2. README.md を PITCHME.mdにリネーム
-3. https://gitpitch.com/$userName/$repoName にアクセス  
-  あとはよしなに [PITCHME.md](https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md) を編集すればOK
+1. README.md を PITCHME.md にrename
+1. PITCHME.md を編集
+1. https://gitpitch.com/$userName/$repoName にアクセス  
 
 ブラウザだけで簡単にスライドが作れちゃう！ 
 
 今回のスライドもこれで作ってます  
-https://gitpitch.com/shirai/GitHubTIPS
+[URL](https://gitpitch.com/shirai/GitHubTIPS) [ソース](https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md)
 
 ---
 
