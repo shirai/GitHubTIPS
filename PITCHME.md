@@ -6,7 +6,7 @@ GitHubを便利に使うTIPS
 ### 自己紹介
 
 ![icon](https://user-images.githubusercontent.com/16277668/41948274-ebbee344-79f6-11e8-8f2a-57fe6e2bf4ee.jpg)  
-白井 誠 <shirai makoto>
+白井 誠 (shirai makoto)
 
 普段はiPhoneアプリの開発をしています。
 
@@ -20,8 +20,8 @@ GitHubを便利に使うTIPS
 
 <font color="red">「GitHubを学習用ノートとして使う」</font>  
 
-- プログラミング学習の記録を残す上でGitHubは便利
-- ただし、他の人に学習の成果を見せるには多少不便な面が多い
+- プログラミング学習記録を残す上でGitHubは便利
+- ただし学習成果の発表には不便な面が多い
 
 そこで、  
 <font color="yellow">「GitHubを使ってoutput出す」</font>  
@@ -48,9 +48,9 @@ GitHub(Gist)とConfluenceを連携
 ### 目的
 
 - Confluenceを見ればすべての情報に辿り着ける状態にしたい
-- でもGitに上げた情報をコピペするのは嫌だ
+- でもGitHubに上げた情報をコピペするのは嫌だ
 
-Confluence上でGitのページを表示したい
+→ Confluence上でGitのページを表示したい
 
 ---
 
@@ -67,11 +67,11 @@ Confluence上でGitのページを表示したい
 ![gist](https://user-images.githubusercontent.com/16277668/41947753-5c08d75c-79f4-11e8-8b1b-84049ca04db8.png)
 
 - md PreviewはもちろんSyntax Highlightも効く
-- 埋め込みjsを自動生成してくれる ←
+- 埋め込みjsを自動生成してくれる
 
 ---
 
-### Step2. [gist-embed](http://blairvanderhoof.com/gist-embed/)でjsを加工する
+### Step2. [gist-embed](http://blairvanderhoof.com/gist-embed/)でjsを加工
 
 - Gistが生成する埋め込み用jsを加工できる
 - 行数指定やfooterを消したりできるようになる  
@@ -102,11 +102,13 @@ GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ---
 
-### 1. 既存のソースコードからjs自動生成
+### 1. [gist-it](http://gist-it.appspot.com/)で既存ソース埋め込み
 
-[gist-it](http://gist-it.appspot.com/)を利用
+```js
+<script src="https://gist-it.appspot.com/github/robertkrimen/gist-it-example/blob/master/example.js"></script>
+```
 
-- repository上のソースコードを埋め込み表示することができる  
+- repository上のソースコードを埋め込み可能  
   → Gistへのコピペ不要！
 - 外部ライブラリの調査結果とか書くときにも便利
 
