@@ -5,9 +5,8 @@ GitHubを便利に使うTIPS
 
 ### 自己紹介
 
-![icon](https://user-images.githubusercontent.com/16277668/41947695-0cbf7386-79f4-11e8-8c3f-3d6d75151f9f.png)
-白井 誠  
-(shirai makoto)
+![icon](https://user-images.githubusercontent.com/16277668/41948274-ebbee344-79f6-11e8-8f2a-57fe6e2bf4ee.jpg)  
+白井 誠 <shirai makoto>
 
 普段はiPhoneアプリの開発をしています。
 
@@ -20,14 +19,13 @@ GitHubを便利に使うTIPS
 ### 本日のお話
 
 <font color="red">「GitHubを学習用ノートとして使う」</font>  
-という話をする予定でしたが、
 
-- 背景説明をするのに時間がかかる
-- さほど面白い背景でもない
+- プログラミング学習の記録を残す上でGitHubは便利
+- ただし、他の人に学習の成果を見せるには多少不便な面が多い
 
-ということでそのへんの説明を省き、  
-<font color="yellow">「GitHubを便利に利用した話」</font>  
-を中心にお話します。
+そこで、  
+<font color="yellow">「GitHubを使ってoutput出す」</font>  
+という話をさせていただきます。
 
 ---
 
@@ -49,14 +47,12 @@ GitHub(Gist)とConfluenceを連携
 
 ### 目的
 
-- 育成コンテンツ用のサンプルコードはGitHub
-- 育成コンテンツの説明＆展開方法はConfluence
+- Confluenceを見ればすべての情報に辿り着ける状態にしたい
+- でもGitに上げた情報をコピペするのは嫌だ
 
-情報を一箇所にまとめたかった
+Confluence上でGitのページを表示したい
 
 ---
-
-GitHub(Gist)とConfluenceを連携
 
 ### 手順
 
