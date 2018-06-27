@@ -104,12 +104,9 @@ GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ### 1. [gist-it](http://gist-it.appspot.com/)で既存ソース埋め込み
 
-```js
-<script src="https://gist-it.appspot.com/github/robertkrimen/gist-it-example/blob/master/example.js"></script>
-```
+![gist-it](https://user-images.githubusercontent.com/16277668/41949490-932756fc-79fc-11e8-9083-539ab41f82a6.png)
 
-- repository上のソースコードを埋め込み可能  
-  → Gistへのコピペ不要！
+- repository上のソースコードを埋め込み可能
 - 外部ライブラリの調査結果とか書くときにも便利
 
 ---
