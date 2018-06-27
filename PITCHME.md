@@ -5,6 +5,7 @@ GitHubを便利に使うTIPS
 
 ### 自己紹介
 
+![icon](https://user-images.githubusercontent.com/16277668/41947695-0cbf7386-79f4-11e8-8c3f-3d6d75151f9f.png)
 白井 誠  
 (shirai makoto)
 
@@ -67,23 +68,24 @@ GitHub(Gist)とConfluenceを連携
 
 ### Step1. [Gist](https://gist.github.com)にwikiを書く
 
-- 
-- 埋め込みjsを自動生成してくれる
+![gist](https://user-images.githubusercontent.com/16277668/41947753-5c08d75c-79f4-11e8-8b1b-84049ca04db8.png)
+
+- md PreviewはもちろんSyntax Highlightも効く
+- 埋め込みjsを自動生成してくれる ←
 
 ---
 
-### Step2. [gist-embed](http://blairvanderhoof.com/gist-embed/)で埋め込みHTMLを加工する
+### Step2. [gist-embed](http://blairvanderhoof.com/gist-embed/)でjsを加工する
 
 - Gistが生成する埋め込み用jsを加工できる
 - 行数指定やfooterを消したりできるようになる  
-  ※見た目気にしないならSKIPしても良いです
+  ※見た目気にしないならSkipしても良いです
 
 ---
 
 ### Step3. Confluenceに埋め込む
 
-htmlマクロ機能を使って  
-生成したjsを貼り付ける
+htmlマクロを使いjsを貼り付ける
 
 ![gist_to_confluence](https://user-images.githubusercontent.com/16277668/41912333-600e93b0-798a-11e8-90d2-853a8b9a42a8.png)
 
@@ -93,7 +95,7 @@ htmlマクロ機能を使って
 
 ![gist_to_confluence_2](https://user-images.githubusercontent.com/16277668/41912332-5fe91c48-798a-11e8-82dd-0181310ab774.png)
 
-- wiki,ソースコードはGistにのみ存在
+- wiki,ソースコードはGitHubにのみ存在
 - Gist,Confluence両方から参照できる
 
 GitHubへの<font color="yellow">情報の集約に成功</font>
@@ -104,7 +106,7 @@ GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ---
 
-### 【小技1】既存のソースコードからjs自動生成
+### 1. 既存のソースコードからjs自動生成
 
 [gist-it](http://gist-it.appspot.com/)を利用
 
@@ -114,9 +116,9 @@ GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ---
 
-### 【小技2】 issueを使って画像を楽々アップロード
+### 2. issueを使って画像を楽々アップロード
 
-![issue_image_upload](https://user-images.githubusercontent.com/16277668/41947583-51a95abc-79f3-11e8-8351-63c488f4a84a.png)
+![issue_image_upload](https://user-images.githubusercontent.com/16277668/41948128-40502f2c-79f6-11e8-9930-ff9f2887276c.png)
 
 - Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop  
   → サクッと画像がアップロードできる！
@@ -124,7 +126,7 @@ GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ---
 
-### 【小技3】 スライドを作成
+### 3. [PITCHME](https://gitpitch.com)でプレゼン資料を作成
 
 1. repository作成
 1. README.md を PITCHME.md にrename
