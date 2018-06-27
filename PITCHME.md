@@ -3,25 +3,6 @@ GitHubを便利に使うTIPS
 
 ---
 
-```flow
-st=>start: 処理開始
-e=>end: 処理終了
-io1=>inputoutput: データ入力
-cond=>condition: 入力値が空
-でない？
-io2=>inputoutput: エラー出力
-（※1）:>#footnote
-sub1=>subroutine: 入力値の検証
-（※2）:>http://www.google.com[blank]
-op1=>operation: セッション開始
-
-st->io1->cond
-cond(yes)->sub1->op1->e
-cond(no)->io2(right)->io1
-```
-
----
-
 ### 自己紹介
 
 白井 誠  
@@ -44,7 +25,7 @@ cond(no)->io2(right)->io1
 - さほど面白い背景でもない
 
 ということでそのへんの説明を省き、  
-<font color="blue">「GitHubを便利に利用した話」</font>  
+<font color="yellow">「GitHubを便利に利用した話」</font>  
 を中心にお話します。
 
 ---
@@ -53,7 +34,7 @@ cond(no)->io2(right)->io1
 
 1. GitHub(Gist)とConfluenceを連携  
 2. 小技集
-  1. 既存ソースを埋め込みHTML化
+  1. 既存ソースを埋め込みjs化
   2. 画像を簡単にupload
   3. 発表用スライド作成
 
@@ -79,15 +60,15 @@ GitHub(Gist)とConfluenceを連携
 ### 手順
 
 1. Gistにwiki情報を書く
-2. gist-embedで埋め込みHTMLを加工する
+2. gist-embedで埋め込みjsを加工する
+3. ConfluenceのHTMLマクロで埋め込む
 
 ---
 
 ### Step1. [Gist](https://gist.github.com)にwikiを書く
 
-- 埋め込みHTMLを自動生成してくれる
-- privateなページが作れる  
-  ※URLさえ知ってれば誰でもアクセスできるけど
+- 
+- 埋め込みjsを自動生成してくれる
 
 ---
 
@@ -115,7 +96,7 @@ htmlマクロ機能を使って
 - wiki,ソースコードはGistにのみ存在
 - Gist,Confluence両方から参照できる
 
-<font color="yellow">使い勝手を変えずに、情報の集約に成功</font>
+GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ---
 
@@ -134,6 +115,8 @@ htmlマクロ機能を使って
 ---
 
 ### 【小技2】 issueを使って画像を楽々アップロード
+
+![issue_image_upload](https://user-images.githubusercontent.com/16277668/41947583-51a95abc-79f3-11e8-8351-63c488f4a84a.png)
 
 - Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop  
   → サクッと画像がアップロードできる！
