@@ -111,11 +111,11 @@ GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ---
 
-### 2. issueを使って画像を楽々アップロード
+### 2. issueで画像を楽々アップロード
 
 ![issue_image_upload](https://user-images.githubusercontent.com/16277668/41948128-40502f2c-79f6-11e8-9930-ff9f2887276c.png)
 
-- Issues>New Issueで表示されるテキストボックスに画像をDrag&Drop  
+- Issues>New Issueで画像をDrag&Drop  
   → サクッと画像がアップロードできる！
 - Issue自体はSubmit不要
 
@@ -137,7 +137,8 @@ GitHubへの<font color="yellow">情報の集約に成功</font>
 
 ### おわり
 
-アウトプットを楽に続けていくためにも、便利なものをより便利に使いたい
+アウトプットを楽に続けていくためにも、  
+便利なものをより便利に使いたい
 
 まだまだ便利な使い方模索しています！
 
