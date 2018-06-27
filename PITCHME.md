@@ -3,6 +3,25 @@ GitHubを便利に使うTIPS
 
 ---
 
+```flow
+st=>start: 処理開始
+e=>end: 処理終了
+io1=>inputoutput: データ入力
+cond=>condition: 入力値が空
+でない？
+io2=>inputoutput: エラー出力
+（※1）:>#footnote
+sub1=>subroutine: 入力値の検証
+（※2）:>http://www.google.com[blank]
+op1=>operation: セッション開始
+
+st->io1->cond
+cond(yes)->sub1->op1->e
+cond(no)->io2(right)->io1
+```
+
+---
+
 ### 自己紹介
 
 白井 誠  
@@ -68,7 +87,7 @@ GitHub(Gist)とConfluenceを連携
 
 - 埋め込みHTMLを自動生成してくれる
 - privateなページが作れる  
-  ※URLさえ知ってれば誰でもアクセスできちゃうけど
+  ※URLさえ知ってれば誰でもアクセスできるけど
 
 ---
 
@@ -94,9 +113,9 @@ htmlマクロ機能を使って
 ![gist_to_confluence_2](https://user-images.githubusercontent.com/16277668/41912332-5fe91c48-798a-11e8-82dd-0181310ab774.png)
 
 - wiki,ソースコードはGistにのみ存在
-- Gist,Confluence両方から参照できる  
+- Gist,Confluence両方から参照できる
 
-<font color="blue">使い勝手を変えずに、情報の集約に成功</font>
+<font color="yellow">使い勝手を変えずに、情報の集約に成功</font>
 
 ---
 
@@ -132,7 +151,7 @@ htmlマクロ機能を使って
 ブラウザだけで簡単にスライドが作れちゃう！ 
 
 今回のスライドもこれで作ってます  
-[URL](https://gitpitch.com/shirai/GitHubTIPS)　　　[ソース](https://github.com/shirai/GitHubTIPS/blob/master/PITCHME.md)
+[URL](https://gitpitch.com/shirai/GitHubTIPS)　　　[ソース](https://raw.githubusercontent.com/shirai/GitHubTIPS/master/PITCHME.md)
 
 ---
 
